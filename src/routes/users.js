@@ -1,6 +1,6 @@
 //RUTAS DE USERS
 
-const asyncRoutes = require('.async')
+const asyncRoutes = require('../middleware/async')
 const winston = require('winston')
 const Users = require('../models/users')
 const express = require('express')

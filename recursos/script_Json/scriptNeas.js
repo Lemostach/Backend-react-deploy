@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-let data = require('./neas.json')
+let data = require('../new_Json/neas.json')
 
 data.forEach((item) => {
     item.h_mag = +item.h_mag
@@ -10,8 +10,8 @@ data.forEach((item) => {
     item.period_yr = +item.period_yr
     item.i_deg = +item.i_deg
 
-    
-     
+
+
 })
 
 data = JSON.stringify(data, null, 4)

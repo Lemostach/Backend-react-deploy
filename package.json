@@ -1,19 +1,19 @@
 {
   "name": "backend-react-deploy",
   "version": "1.0.0",
-  "description": "API NASA Deploy",
+  "description": "Deploy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RubenRGanga/Back_NasaAPI.git"
+    "url": "git+https://github.com/Lemostach/Backend-react-deploy.git"
   },
-  "author": "Lemostach",
+  "author": "Rubén R. Ganga",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lemostach/Backend-react-deploy/issues"
+    "url": "https://github.com/Lemostach/Backend-react-deplo/issues"
   },
   "homepage": "https://github.com/Lemostach/Backend-react-deploy#readme",
   "dependencies": {

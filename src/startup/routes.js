@@ -2,10 +2,10 @@
 
 require('express-async-errors')
 
-const errors = require('.errors')
-const landings = require('../landings');
-const neas = require('../neas');
-const users = require('../users');
+const errors = require('../middleware/errors')
+const landings = require('../routes/landings');
+const neas = require('../routes/neas');
+const users = require('../routes/users');
 const express = require('express');
 
 const app = express();

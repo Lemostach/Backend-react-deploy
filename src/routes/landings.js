@@ -1,6 +1,6 @@
 //RUTAS DE LANDINGS
 
-const asyncRoutes = require('./async')
+const asyncRoutes = require('../middleware/async')
 const Landings = require('../models/landings')
 const express = require('express')
 const router = express.Router()

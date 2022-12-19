@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-let data = require('./landings')
+let data = require('../new_Json/landings.json')
 
 data.forEach((item) => {
     item.mass = +item.mass
