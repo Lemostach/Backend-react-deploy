@@ -1,6 +1,6 @@
 //RUTAS DE NEAS
 
-const asyncRoutes = require('../middleware/async')
+const asyncRoutes = require('./async')
 const winston = require('winston')
 const Neas = require('../models/neas')
 const express = require('express')
