@@ -1,22 +1,23 @@
 {
   "name": "nasa",
   "version": "1.0.0",
-  "description": "Proyecto de Backend, consulta y uso de BBDD con mongoDB",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon App.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RubenRGanga/Back_NasaAPI.git"
+    "url": "git+https://github.com/Lemostach/Backend-react-deploy.git.git"
   },
-  "author": "Rubén R. Ganga",
+  "author": "Lemostach",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RubenRGanga/Back_NasaAPI/issues"
+    "url": "https://github.com/Lemostach/Backend-react-deploy/issues"
   },
-  "homepage": "https://github.com/RubenRGanga/Back_NasaAPI#readme",
+  "homepage": "https://github.com/Lemostach/Backend-react-deploy#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
