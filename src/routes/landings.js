@@ -24,7 +24,7 @@ router.get('/mass/:mass', async (req, res) => {
 
 })
 
-router.get('/', async (req, res) => {
+router.get('', async (req, res) => {
     res.send(await Landings.find())
 })
 
