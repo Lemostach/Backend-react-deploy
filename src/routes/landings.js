@@ -24,6 +24,10 @@ router.get('/mass/:mass', async (req, res) => {
 
 })
 
+router.get('/', async (req, res) => {
+    res.send(await Landings.find())
+})
+
 //3_GET_OBTENER NOMBRE Y CLASE DE LOS METEORITOS CON UNA CLASE CONCRETA ESPECIFICADA.
 //Ruta de ejemplo: http://localhost:3000/api/astronomy/landings/class/H6
 
